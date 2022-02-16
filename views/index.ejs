@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shatha Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+  </head>
+  <body>
+    <!-- header start -->
+    <header>
+      <nav class="navbar">
+        <p class="logo">SHATHA</p>
+
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#skills">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact-us">Contact Us</a></li>
+          <label id="dark-change"></label>
+        </ul>
+        <div class="hamburger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="home" id="home">
+          <div class="left">
+            <h1 class="name">SHATHA AL-BAJLY</h1>
+            <p class="job">Full Stack Developer</p>
+            <p class="intro">
+              I'm a Yemeni based web developer focused on crafting clean &
+              user‑friendly experiences, I also love problem solving. I am
+              passionate about building excellent software that improves the
+              lives of those around me.
+            </p>
+          </div>
+          <!-- <button id="button">Click me!</button> -->
+
+          <div class="right" id="img-container">
+            <img id="image" src="/profile.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header end -->
+
+    <!-- skills start -->
+
+    <section class="skills" id="skills">
+      <div class="title">
+        <h2>My Expertise Area</h2>
+        <div class="title-line"></div>
+      </div>
+      <div class="skills-sections">
+        <div class="left">
+          <div class="bar">
+            <div class="info">
+              <span>HTML</span>
+              <span>90%</span>
+            </div>
+            <div class="line html"></div>
+          </div>
+
+          <div class="bar">
+            <div class="info">
+              <span>CSS</span>
+              <span>80%</span>
+            </div>
+            <div class="line css"></div>
+          </div>
+
+          <div class="bar">
+            <div class="info">
+              <span>JavaScipt</span>
+              <span>80%</span>
+            </div>
+            <div class="line js"></div>
+          </div>
+
+          <div class="bar">
+            <div class="info">
+              <span>PHP</span>
+              <span>60%</span>
+            </div>
+            <div class="line php"></div>
+          </div>
+        </div>
+        <div class="right">
+          <div>
+            <div class="experience-title">
+              <i class="fa fa-briefcase"></i>
+              <h3>Experiences</h3>
+            </div>
+
+            <div class="job-item">
+              <div class="the-job">Full time freelencer on freelancer</div>
+              <div class="time">
+                <i class="fa fa-calendar" aria-hidden="true"></i>
+                <p>2020-now</p>
+              </div>
+            </div>
+
+            <div class="job-item">
+              <div class="the-job">
+                Full time freelencer on upwork and fiver
+              </div>
+              <div class="time">
+                <i class="fa fa-calendar" aria-hidden="true"></i>
+                <p>2020-now</p>
+              </div>
+            </div>
+            <div class="job-item">
+              <div class="the-job">Front-end developer in WiT organization</div>
+              <div class="time">
+                <i class="fa fa-calendar" aria-hidden="true"></i>
+                <p>2018-2020</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- skills end -->
+
+    <!-- services start -->
+
+    <section class="services" id="services">
+      <div class="container">
+        <div class="title">
+          <h2>Services I Offer</h2>
+          <div class="title-line"></div>
+        </div>
+        <div class="services-sections">
+          <div class="service">
+            <div class="service-symbol">
+              <i class="fa fa-magic"></i>
+            </div>
+            <h3>Web Designing</h3>
+
+            <p>
+              We have a talented group of website designers who can build you a
+              site that looks great, shows up on Google search pages and brings
+              new customers to your digital doorstep.
+            </p>
+          </div>
+          <div class="service">
+            <div class="service-symbol">
+              <i class="fa fa-laptop"></i>
+            </div>
+            <h3>Web Development</h3>
+
+            <p>
+              We have a talented group of website developers who can build you a
+              site that looks great, shows up on Google search pages and brings
+              new customers to your digital doorstep.
+            </p>
+          </div>
+          <div class="service">
+            <div class="service-symbol">
+              <i class="fa fa-database"></i>
+            </div>
+            <h3>Database</h3>
+            <p>
+              We have a talented group of website database manager who can build
+              you a site that looks great, shows up on Google search pages and
+              brings new customers to your digital doorstep.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- services end -->
+    <!-- contact us start -->
+
+    <section class="contact-us" id="contact-us">
+      <div class="container">
+        <div class="title">
+          <h2>Contact Me</h2>
+          <div class="title-line"></div>
+        </div>
+
+        <div class="contact-us-sections">
+          <form class="contact-form left" id="contact-form">
+            <h3>Send Message</h3>
+
+            <div class="input-box">
+              <input
+                type="text"
+                class="name"
+                id="name"
+                placeholder="Name"
+                name="name"
+              />
+              <i class="fa fa-check-circle"></i>
+              <i class="fa fa-exclamation-circle"></i>
+              <small></small>
+            </div>
+
+            <div class="input-box">
+              <input
+                type="email"
+                placeholder="Email"
+                id="email"
+                class="email"
+                name="email"
+              />
+              <i class="fa fa-check-circle"></i>
+              <i class="fa fa-exclamation-circle"></i>
+              <small></small>
+            </div>
+
+            <div class="input-box">
+              <lurabel for="message"></lurabel>
+              <textarea
+                rows="4"
+                cols="80"
+                placeholder="Message"
+                class="message"
+                id="message"
+                name="message"
+              ></textarea>
+              <i class="fa fa-check-circle"></i>
+              <i class="fa fa-exclamation-circle"></i>
+              <small></small>
+            </div>
+
+            <div class="input-box">
+              <input type="submit" class="send-btn" name="" value="Send" />
+            </div>
+          </form>
+
+          <div class="contact-info right">
+            <div class="contact-item">
+              <div class="icon">
+                <i class="fa fa-phone"></i>
+              </div>
+              <div class="contact">
+                <p>Call Me</p>
+                <p>00967771199924</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="icon">
+                <i class="fa fa-envelope"></i>
+              </div>
+              <div class="contact">
+                <p>E-mail</p>
+                <p>shathaalbajly@gmail.com</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="icon">
+                <i class="fa fa-map-marker"></i>
+              </div>
+              <div class="contact">
+                <p>Location</p>
+                <p>Yemen, Sana'a</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact us end -->
+
+    <!-- footer start -->
+
+    <footer>
+      <p>All rights reserved</p>
+      <ul>
+        <li>
+          <a href="https://github.com/albajlyshatha"
+            ><i class="fa fa-github"></i
+          ></a>
+        </li>
+
+        <li>
+          <a href="https://wa.me/00967771199924"
+            ><i class="fa fa-whatsapp"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/shatha.2021"
+            ><i class="fa fa-facebook"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+    <!-- footer end -->
+
+    <script src="/scripts.js"></script>
+  </body>
+</html>
