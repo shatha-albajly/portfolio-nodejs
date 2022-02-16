@@ -6,3 +6,8 @@ router.get("/", (req, res) => {
 });
 
 module.exports = router;
+
+const PORT = process.env.PORT || 5000;
+
+// Executing the server on given port number
+app.listen(PORT, console.log(`Server started on port ${PORT}`));
